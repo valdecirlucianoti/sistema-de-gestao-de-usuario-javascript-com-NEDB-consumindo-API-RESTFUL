@@ -23,13 +23,15 @@ npm start
 ```
 
 ## Rotas
-Obter todos os usuários
+Para obter todos os usuários
 ```
 Method: GET URL: http://localhost:3000/
 ```
 ```
 A API retornara todos os usuários em um formato JSON, e a aplicação consumira os mesmos e os exibira na dashboard
 ```
+
+As demais rotas (post, put e delete) serão realizadas internamente, sem a necessidade de escreve-las manualmente
 
 ### Esta aplicação utiliza: 
 Javascript e NODEjs
